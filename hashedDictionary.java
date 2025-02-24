@@ -1,7 +1,7 @@
 package dictionary;
 
 public class hashedDictionary {
-    static int index = 255;
+    static int index = 255; // Can be any value <= 2^31
     static String[] dictKeys = new String[index];
     static int[][] dictValues = new int[index][];
 
