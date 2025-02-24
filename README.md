@@ -11,4 +11,4 @@ Note:
 
     • Uses linear probing to handle hash collisions
     • Example tests are in the main method for examplifying the functionalities
-    • The number of hashable locations can be modified to be larger, but the code struggles with values > ~ 214748360
+    • The number of hashable locations can be modified to be larger, but the code struggles with values > ≈ 214748360
