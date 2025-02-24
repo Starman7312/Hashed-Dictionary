@@ -1,5 +1,5 @@
 # Hashed-Dictionary
-A simple hashed dictionary example with 256 hashable locations, and three methods:
+A simple (Java based) hashed dictionary example with 256 hashable locations, and three methods:
   
     • insert - allows for a (key, value) pair to be added to the dictionary
     • delete - allows for deletion of a (key, value) pair, referenced by the key
