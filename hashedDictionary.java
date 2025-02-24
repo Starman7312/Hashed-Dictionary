@@ -3,6 +3,11 @@ public class hashedDictionary {
     static String[] dictKeys = new String[index];
     static int[][] dictValues = new int[index][];
 
+    /**
+     * Hash calculation function, based on ascii sum MOD index
+     * @param key - string of chars
+     * @return - integer hash value
+     */
     public static int hash(String key){
         int pos = 0;
         for (char chr: key.toCharArray()){
